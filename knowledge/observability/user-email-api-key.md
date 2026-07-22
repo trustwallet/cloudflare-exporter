@@ -20,3 +20,5 @@ To authenticate this way, set both `CF_API_KEY` and `CF_API_EMAIL`.
 - [run](../ci/workflows/run.md) <!-- rel:strong -->
 - [authentication](../security/auth/authentication.md) <!-- rel:related -->
 - [build](../build/build.md) <!-- rel:related -->
+- [cloudflare api integration](../security/cloudflare-api-integration.md) <!-- rel:strong -->
+- [domains](../architecture/domains.md) <!-- rel:related -->

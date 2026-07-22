@@ -4,6 +4,7 @@
 
 ## Documents
 
-| Document | Source |
-|----------|--------|
-| [license](license.md) | README.md |
+| Document | Description | Source |
+|----------|-------------|--------|
+| [license](license.md) | See [LICENSE](LICENSE) for full details. | README.md |
+

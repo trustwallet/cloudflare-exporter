@@ -4,7 +4,8 @@
 
 ## Documents
 
-| Document | Source |
-|----------|--------|
-| [list of available metrics](list-of-available-metrics.md) | README.md |
-| [run](run.md) | README.md |
+| Document | Description | Source |
+|----------|-------------|--------|
+| [list of available metrics](list-of-available-metrics.md) |  | README.md |
+| [run](run.md) | Authenticating with email + API key: | README.md |
+

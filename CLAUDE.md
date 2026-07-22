@@ -4,7 +4,13 @@
 
 ## What this repo is
 
-- Stack: Go
+- **Domain**: Cloudflare Analytics observability — exports Cloudflare zone, colocation, Worker, and load-balancer metrics to Prometheus.
+- **Route here**: adding/changing Cloudflare metrics scraped from the GraphQL Analytics API; configuring which zones or metric names to expose; Helm chart for the exporter; Docker image build.
+- **Do not route here**: Prometheus/VictoriaMetrics configuration, scrape job configuration (lives in platform-gitops), Grafana dashboard authoring, or any non-Cloudflare metrics pipeline.
+- **Consumers**: Any Prometheus/VictoriaMetrics instance scraping the `/metrics` endpoint; Grafana dashboards built on `cloudflare_*` metrics.
+- **Ships**: A Docker container image (`ghcr.io/lablabs/cloudflare_exporter`) and a Helm chart (`charts/cloudflare-exporter/`).
+- **Agent map**: `main.go` — entry point, config, scrape loop; `cloudflare.go` — Cloudflare REST + GraphQL API client; `prometheus.go` — metric registry and analytics-to-Prometheus conversion.
+- Stack: Go 1.19, `cloudflare-go` SDK, `machinebox/graphql`, `prometheus/client_golang`
 - Knowledge base: 7 categories — build, ci, code-conventions, libs, observability, patterns, security
 
 ## Repo Manifest (for agents)
@@ -25,9 +31,11 @@ For the structured knowledge base, see [knowledge/constitution.md](knowledge/con
 - [patterns](knowledge/patterns/index.md) — Coding patterns, recipes, and proven approaches
 - [security](knowledge/security/index.md) — Security guidelines, authentication, and compliance
 
+- [architecture](knowledge/architecture/index.md) — Architecture
+
 ## Learnings
 
-This repo may keep a living archive of incident-derived rules in [`learnings/`](learnings/) — each file a postmortem of a real bug or a non-obvious pattern that bit once and would bite again: root cause, the rule that prevents recurrence, and tags for matching. The folder is **optional and may be absent** — create it the first time you have a learning worth saving.
+This repo may keep a living archive of incident-derived rules in ~~[`learnings/`](learnings/)~~ — each file a postmortem of a real bug or a non-obvious pattern that bit once and would bite again: root cause, the rule that prevents recurrence, and tags for matching. The folder is **optional and may be absent** — create it the first time you have a learning worth saving.
 
 **Before** investigating any bug, regression, or "weird behavior", *if a `learnings/` directory exists*:
 

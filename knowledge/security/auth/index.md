@@ -4,6 +4,7 @@
 
 ## Documents
 
-| Document | Source |
-|----------|--------|
-| [authentication](authentication.md) | README.md |
+| Document | Description | Source |
+|----------|-------------|--------|
+| [authentication](authentication.md) | Authentication towards the Cloudflare API can be done in two ways: | README.md |
+

@@ -76,3 +76,9 @@ _struct · `cloudflare.go`:66_
 | `ColoGroups` | `[]struct { Dimensions struct { Datetime string `json:"datetime"` ColoCode string `json:"coloCode"` Host string `json:"clientRequestHTTPHost"` } `json:"dimensions"` Count uint64 `json:"count"` Sum struct { EdgeResponseBytes uint64 `json:"edgeResponseBytes"` Visits uint64 `json:"visits"` } `json:"sum"` Avg struct { SampleInterval float64 `json:"sampleInterval"` } `json:"avg"` }` | no |
 | `ZoneTag` | `string` | no |
 
+## See Also
+- [cloudflare api integration](../../security/cloudflare-api-integration.md) <!-- rel:strong -->
+- [metrics catalog](../../observability/metrics-catalog.md) <!-- rel:strong -->
+- [configuration](../../observability/metrics/configuration.md) <!-- rel:related -->
+- [constitution](../../constitution.md) <!-- rel:weak -->
+- [api token](../../observability/metrics/api-token.md) <!-- rel:weak -->

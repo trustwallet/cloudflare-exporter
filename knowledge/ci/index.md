@@ -8,6 +8,7 @@
 
 ## Documents
 
-| Document | Source |
-|----------|--------|
-| [helm chart repository](helm-chart-repository.md) | README.md |
+| Document | Description | Source |
+|----------|-------------|--------|
+| [helm chart repository](helm-chart-repository.md) | To deploy the exporter into Kubernetes, we recommend using our manager Helm repository: | README.md |
+

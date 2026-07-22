@@ -20,7 +20,7 @@
 name: Knowledge Sync
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - '**/*.md'
       - '.claude/**'
@@ -355,7 +355,7 @@ jobs:
             BODY="## What changed\n\n\`\`\`\n${SUMMARY}\n\`\`\`\n\n${BODY}"
           fi
           PR_URL=$(gh pr create \
-            --base main \
+            --base master \
             --head "$BRANCH" \
             --title "chore: sdd-knowledge garden sync" \
             --body "$(printf '%b' "$BODY")")

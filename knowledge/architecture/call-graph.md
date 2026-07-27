@@ -177,4 +177,3 @@
 - [cloudflare api integration](../security/cloudflare-api-integration.md) <!-- rel:strong -->
 - [metrics catalog](../observability/metrics-catalog.md) <!-- rel:strong -->
 - [configuration](../observability/metrics/configuration.md) <!-- rel:related -->
-- [learnings](../learnings.md) <!-- rel:weak -->

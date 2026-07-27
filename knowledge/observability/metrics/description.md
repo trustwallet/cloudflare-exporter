@@ -20,4 +20,3 @@ The exporter is also able to scrape Zone metrics by Colocations (https://www.clo
 - [license](../../libs/license.md) <!-- rel:strong -->
 - [list of available metrics](../../ci/workflows/list-of-available-metrics.md) <!-- rel:related -->
 - [authentication](../../security/auth/authentication.md) <!-- rel:related -->
-- [patterns validated approaches](../../patterns/patterns-validated-approaches.md) <!-- rel:related -->

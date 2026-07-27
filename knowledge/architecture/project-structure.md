@@ -27,7 +27,5 @@ _Single-module project_
 
 ## See Also
 - [constitution](../constitution.md) <!-- rel:strong -->
-- [learnings](../learnings.md) <!-- rel:strong -->
-- [patterns validated approaches](../patterns/patterns-validated-approaches.md) <!-- rel:related -->
 - [contributing and reporting issues](../code-conventions/git/contributing-and-reporting-issues.md) <!-- rel:related -->
 - [license](../libs/license.md) <!-- rel:related -->

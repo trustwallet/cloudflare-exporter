@@ -49,4 +49,3 @@ safe to ignore.
 - [metrics catalog](../observability/metrics-catalog.md) <!-- rel:strong -->
 - [configuration](../observability/metrics/configuration.md) <!-- rel:strong -->
 - [api token](../observability/metrics/api-token.md) <!-- rel:related -->
-- [learnings](../learnings.md) <!-- rel:related -->

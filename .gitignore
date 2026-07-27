@@ -25,3 +25,4 @@ vendor/
 *.swp
 
 .idea/
+knowledge/.relations.json

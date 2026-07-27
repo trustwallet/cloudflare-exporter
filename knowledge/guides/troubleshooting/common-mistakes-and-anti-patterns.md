@@ -24,11 +24,6 @@ These are JSON response structs populated exclusively via `json.Unmarshal` in th
 
 ### Code-conventions
 
-**From [Anti-Patterns (failed approaches)](../../code-conventions/anti-patterns-failed-approaches.md):**
-<!-- Add failed approaches here. Each anti-pattern should include:
-- **type**: anti-pattern
-- **discovered**: YYYY-MM-DD
-
 ### Patterns
 
 **From [Metrics Denylist Pattern (MetricName/MetricsSet)](../../patterns/metrics-denylist-pattern-metricname-metricsset.md):**
